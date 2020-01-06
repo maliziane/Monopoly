@@ -38,7 +38,7 @@ public class Plateau {
 		}
 	
 	
-	// creer case depart
+	
 	
 	
 	}

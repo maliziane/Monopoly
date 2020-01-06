@@ -2,7 +2,7 @@ package fr.gtm.monopoly;
 
 public class Joueur {
 		private String nom;
-		private int solde;
+		private int solde=1500;
 		private Pion pion;
 		
 		
