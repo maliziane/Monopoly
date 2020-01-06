@@ -23,8 +23,12 @@ public class Plateau {
   for(int i=0;i<cases.length;i++) {
 	  if(i==0) {
 		  cases[i]=new Depart("Case Depart");
-	  }else {
-	  cases[i]= new Case("case"+i);
+	  }else if (i==4) {
+		  cases[i]=new Impots("Case Impots");
+  	  }else if (i==38){
+  		  cases[i]=new TaxeDeLuxe("Case Taxe De Luxe");
+      } else{
+	      cases[i]= new Case("case"+i);
 	  }
 	  
   }
