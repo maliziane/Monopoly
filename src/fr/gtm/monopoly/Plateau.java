@@ -3,6 +3,9 @@ package fr.gtm.monopoly;
 public class Plateau {
 	private Case[] cases= new Case[40];
 	
+	Depart caseDepart = new Depart();
+	
+	
 	public Case getCaseDepart() {
 	 return cases[0]	;
 	}
@@ -30,6 +33,11 @@ public class Plateau {
 			}
 			cases[cases.length-1].setSuivante(cases[0]);
 		}
+	
+	
+	// creer case depart
+	
+	
 	}
 
 	
