@@ -21,6 +21,8 @@ monopoly.add(j1,j2,j3);
 monopoly.demarrer();
 
 
-
+System.out.println(j1.getNom()+" a un solde de "+j1.getSolde());
+System.out.println(j2.getNom()+" a un solde de "+j2.getSolde());
+System.out.println(j3.getNom()+" a un solde de "+j3.getSolde());
 
 }}

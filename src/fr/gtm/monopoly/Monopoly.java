@@ -18,7 +18,7 @@ public void add(Joueur...joueurs) {
 public void demarrer() {
 	System.out.println("Monopoly: lancement du jeu");
 
-	for(int i =0; i<10;i++) {		
+	for(int i =0; i<20;i++) {		
 		for(Joueur joueur:joueurs) {
 			joueur.jouer(gobelet);
 }}}

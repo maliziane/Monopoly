@@ -3,7 +3,6 @@ package fr.gtm.monopoly;
 public class Plateau {
 	private Case[] cases= new Case[40];
 	
-	Depart caseDepart = new Depart();
 	
 	
 	public Case getCaseDepart() {
@@ -22,7 +21,11 @@ public class Plateau {
 	private void creerCases(Case cases[]) {
 		
   for(int i=0;i<cases.length;i++) {
+	  if(i==0) {
+		  cases[i]=new Depart("Case Depart");
+	  }else {
 	  cases[i]= new Case("case"+i);
+	  }
 	  
   }
 		
