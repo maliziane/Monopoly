@@ -1,6 +1,6 @@
 package fr.gtm.monopoly;
 
-public class Propriete extends Case {
+public abstract class Propriete extends Case { // met abstract pour empecher de faire un new Propriete
 
 	private int prixAchat;
 	private int loyer;
