@@ -29,7 +29,7 @@ public class Case {
    }
    
    public  void survoler(Pion pion) {
-   System.out.println( "SURVOL de "+this.nom+" par "+pion.getName());
+   //System.out.println( "SURVOL de "+this.nom+" par "+pion.getName());
    }
    
    

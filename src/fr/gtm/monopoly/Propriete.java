@@ -26,8 +26,10 @@ public class Propriete extends Case {
 	public void acheter(Joueur joueur) {
 				this.setOwner(joueur);
 				joueur.setSolde(joueur.getSolde()-prixAchat);
+				joueur.addPropriete(this);
 		System.out.println("La propriété a maintenant un propriétaire: "+owner.getNom());
 		System.out.println(owner.getNom()+" a maintenant un solde de "+owner.getSolde());
+		
 	}
 		
 	public void payerLoyer(Joueur joueur) {
