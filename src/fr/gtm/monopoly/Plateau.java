@@ -4,7 +4,6 @@ public class Plateau {
 	private Case[] cases= new Case[40];
 	
 	
-	
 	public Case getCaseDepart() {
 	 return cases[0]	;
 	}
@@ -27,8 +26,12 @@ public class Plateau {
 		  cases[i]=new Impots("Case Impots");
   	  }else if (i==38){
   		  cases[i]=new TaxeDeLuxe("Case Taxe De Luxe");
+  	  }else if (i==5 || i==15 || i==25 || i==35 ) {
+  		  cases[i]=new Gare("Case Gare");
+  	  }else if (i==12 || i==28) {
+		  cases[i]=new Compagnie("Case Compagnie");
       } else{
-	      cases[i]= new Case("case"+i);
+	      cases[i]= new Terrain("case"+i);
 	  }
 	  
   }
